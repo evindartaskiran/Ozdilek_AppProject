@@ -1,0 +1,38 @@
+Created by testinium on 28.02.2022
+
+This is a concept file with following syntax for each concept.
+# “Özdilekteyim” uygulaması açılır
+*id "com.ozdilek.ozdilekteyim:id/ivSplash" li elemente tıkla
+# Uygulamanın açıldığını kontrol et
+*id"com.ozdilek.ozdilekteyim:id/tv_startShoppingStore" li elementi kontrol et
+# Alişverişe basla butonuna tıkla
+*id "com.ozdilek.ozdilekteyim:id/tv_startShoppingStore" li elemente tıkla
+#Alışveriş sayfasının açıldıgı doğrulanır
+*id"com.ozdilek.ozdilekteyim:id/tvMarketName" li elementi doğrula
+#Katogiriler Sayfası Açılır
+*id "com.ozdilek.ozdilekteyim:id/nav_categories" li elemente tıkla
+#Katogoriler Sayfasının açıldıgı dogrulanır 
+*xpath "//android.widget.LinearLayout[@content-desc='Kategoriler']/android.widget.TextView" li elemente tıkla
+#Menüden “Kadın” Seçeneğine tıklanır
+*xpath "//*[@resource-id='com.ozdilek.ozdilekteyim:id/recyclerCategories']/android.widget.RelativeLayout[2]" li elemente tıkla
+#“pantolon” kategorisi açılır 
+*xpath "//*[@resource-id='com.ozdilek.ozdilekteyim:id/relLayCategoriesItem'][13]" li elemente tıkla
+#Sayfanın en aşağı kısmına doğru iki kere scrol edilir
+*Sayfayı aşağı kaydır
+#Ürünlerden rasgele bir ürün seçilir
+*Rasgele bir ürün seç
+#Ürün detay sayfası açıldığını kontrol edilir
+*id"com.ozdilek.ozdilekteyim:id/tvColorDesc" li elementi kontrol ett
+#Favoriler butonuna tıklanır
+*id "com.ozdilek.ozdilekteyim:id/relLayFav" li elemente tıkla
+#Giriş yapma sayfasının açıldığı doğrulanır. 
+*id"com.ozdilek.ozdilekteyim:id/etPassword" li elementi kontrol ettt
+#Kullanıcı adı alanına “text” bilgisi girilir
+*"com.ozdilek.ozdilekteyim:id/etEposta" id'li elemente <evindattaskiran@gmail.com> email adresi girme
+#Password alanına şifre yazılır
+*"com.ozdilek.ozdilekteyim:id/etPassword" 'li elemente <şifre123> şifre girme
+#Geri butonuna 2 kere tıklanır
+*id"com.ozdilek.ozdilekteyim:id/ivBack" geri tusuna tıkla
+#Seçilen ürün sepete eklenir.
+*"com.ozdilek.ozdilekteyim:id/relLayAddCartBtn" sepete ekleme yap
+
